@@ -14,8 +14,6 @@ from config import privat_key
 
 current_datetime = datetime.now()
 print(f"\n\n {current_datetime}")
-print(f'============================================= Плюшкин Блог =============================================')
-print(f'subscribe to : https://t.me/plushkin_blog \n============================================================================================================\n')
 
 wallets = []
 with open("wallets.txt", "r") as f:
